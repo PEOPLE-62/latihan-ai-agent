@@ -1,7 +1,7 @@
 <?php
 
-$nama = "Eka Putra";
-$umur = 15;
+$nama = "Muhammad";
+$umur = 20;
 
 echo "Nama: $nama";
 echo "Umur: $umur";
@@ -11,3 +11,8 @@ if ($umur >= 18) {
 } else {
     echo "Status: Belum Dewasa";
 }
+
+$tahunSekarang = date("Y");
+$tahunLahir = $tahunSekarang - $umur;
+
+echo "Tahun lahir: " . $tahunLahir;
